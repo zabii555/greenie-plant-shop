@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Lavender background -->
+  <rect width="400" height="400" fill="#ede9f8" rx="16"/>
+
+  <!-- Pot shadow -->
+  <ellipse cx="200" cy="356" rx="55" ry="10" fill="#7c3aed" opacity="0.15"/>
+
+  <!-- Terracotta pot body -->
+  <path d="M158 312 Q162 362 200 370 Q238 362 242 312 Z" fill="#c2783c"/>
+  <path d="M152 298 Q152 314 200 318 Q248 314 248 298 Q248 284 200 280 Q152 284 152 298 Z" fill="#d4894d"/>
+  <rect x="162" y="294" width="76" height="7" rx="3.5" fill="#e8a060" opacity="0.6"/>
+
+  <!-- Jade trunk / stem -->
+  <path d="M196 280 Q193 255 193 235 Q197 228 200 232 Q203 228 207 235 Q207 255 204 280 Z" fill="#5a3e2b"/>
+
+  <!-- Branch 1 left -->
+  <path d="M196 248 Q175 240 162 228" stroke="#5a3e2b" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <!-- Branch 2 right -->
+  <path d="M204 255 Q224 244 238 235" stroke="#5a3e2b" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <!-- Branch 3 top left -->
+  <path d="M196 240 Q180 228 170 210" stroke="#5a3e2b" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <!-- Branch 4 top right -->
+  <path d="M204 245 Q218 230 228 215" stroke="#5a3e2b" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <!-- Branch 5 top center -->
+  <path d="M200 238 Q198 218 198 200" stroke="#5a3e2b" stroke-width="5" stroke-linecap="round" fill="none"/>
+
+  <!-- Jade leaves — small fat round ovate leaves in groups -->
+  <!-- Cluster on branch 1 (left) -->
+  <ellipse cx="158" cy="224" rx="14" ry="10" fill="#3a7d44" transform="rotate(-20 158 224)"/>
+  <ellipse cx="145" cy="220" rx="13" ry="9" fill="#4a9e58" transform="rotate(-35 145 220)"/>
+  <ellipse cx="152" cy="212" rx="12" ry="8" fill="#2d6a35" transform="rotate(-10 152 212)"/>
+  <ellipse cx="166" cy="215" rx="11" ry="8" fill="#4a9e58" transform="rotate(10 166 215)"/>
+
+  <!-- Cluster on branch 2 (right) -->
+  <ellipse cx="242" cy="232" rx="14" ry="10" fill="#3a7d44" transform="rotate(20 242 232)"/>
+  <ellipse cx="254" cy="226" rx="13" ry="9" fill="#4a9e58" transform="rotate(35 254 226)"/>
+  <ellipse cx="248" cy="217" rx="12" ry="8" fill="#2d6a35" transform="rotate(10 248 217)"/>
+  <ellipse cx="234" cy="222" rx="11" ry="8" fill="#4a9e58" transform="rotate(-10 234 222)"/>
+
+  <!-- Cluster top left -->
+  <ellipse cx="167" cy="206" rx="14" ry="10" fill="#3a7d44" transform="rotate(-30 167 206)"/>
+  <ellipse cx="156" cy="198" rx="12" ry="9" fill="#4a9e58" transform="rotate(-45 156 198)"/>
+  <ellipse cx="162" cy="190" rx="11" ry="8" fill="#2d6a35" transform="rotate(-20 162 190)"/>
+  <ellipse cx="175" cy="197" rx="12" ry="8" fill="#5ab866" transform="rotate(-5 175 197)"/>
+
+  <!-- Cluster top right -->
+  <ellipse cx="232" cy="212" rx="14" ry="10" fill="#3a7d44" transform="rotate(25 232 212)"/>
+  <ellipse cx="244" cy="205" rx="12" ry="9" fill="#4a9e58" transform="rotate(40 244 205)"/>
+  <ellipse cx="238" cy="196" rx="11" ry="8" fill="#2d6a35" transform="rotate(15 238 196)"/>
+  <ellipse cx="225" cy="203" rx="12" ry="8" fill="#5ab866" transform="rotate(0 225 203)"/>
+
+  <!-- Top center cluster -->
+  <ellipse cx="195" cy="196" rx="14" ry="10" fill="#3a7d44" transform="rotate(-10 195 196)"/>
+  <ellipse cx="205" cy="188" rx="13" ry="9" fill="#5ab866" transform="rotate(15 205 188)"/>
+  <ellipse cx="196" cy="180" rx="12" ry="9" fill="#4a9e58" transform="rotate(-5 196 180)"/>
+  <ellipse cx="208" cy="175" rx="11" ry="8" fill="#2d6a35" transform="rotate(20 208 175)"/>
+  <ellipse cx="188" cy="174" rx="11" ry="8" fill="#4a9e58" transform="rotate(-25 188 174)"/>
+
+  <!-- Leaf shine dots -->
+  <ellipse cx="196" cy="193" rx="3" ry="2" fill="white" opacity="0.3" transform="rotate(-10 196 193)"/>
+  <ellipse cx="205" cy="185" rx="3" ry="2" fill="white" opacity="0.3" transform="rotate(15 205 185)"/>
+  <ellipse cx="160" cy="202" rx="3" ry="2" fill="white" opacity="0.3"/>
+  <ellipse cx="240" cy="208" rx="3" ry="2" fill="white" opacity="0.3"/>
+
+  <!-- Label -->
+  <text x="200" y="390" font-family="Georgia, serif" font-size="13" fill="#3b0764" text-anchor="middle" font-weight="bold">Jade Plant</text>
+</svg>

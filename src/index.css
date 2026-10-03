@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --font-serif: 'Tenor Sans', 'Playfair Display', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --bg-dark-green: #0a3629;
+  --bg-footer: #07241c;
+  --bg-cream: #f6f5ef;
+  --accent-lime: #c1f038;
+  --accent-orange: #ff5e1e;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f6f5ef;
+  color: #0f2e24;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+.font-serif-title {
+  font-family: var(--font-serif);
+  letter-spacing: -0.02em;
+}
+
+/* 3D Tilt Card effect */
+.card-3d {
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s ease;
+  transform-style: preserve-3d;
+}
+.card-3d:hover {
+  transform: translateY(-8px) rotateX(4deg) rotateY(-2deg) scale(1.02);
+  box-shadow: 0 25px 50px -12px rgba(10, 54, 41, 0.25);
+}
+
+/* Floating animation */
+@keyframes floatSlow {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-10px) rotate(2deg); }
+}
+.animate-float {
+  animation: floatSlow 5s ease-in-out infinite;
+}
+
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.6; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.05); }
+}
+.animate-pulse-glow {
+  animation: pulseGlow 4s ease-in-out infinite;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0a3629;
+}
+::-webkit-scrollbar-thumb {
+  background: #c1f038;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #aadb22;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}

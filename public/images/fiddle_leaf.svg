@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Warm amber background -->
+  <rect width="400" height="400" fill="#fdf3c0" rx="16"/>
+
+  <!-- Pot shadow -->
+  <ellipse cx="200" cy="352" rx="62" ry="12" fill="#b45309" opacity="0.2"/>
+
+  <!-- Pot -->
+  <path d="M148 308 Q152 360 200 370 Q248 360 252 308 Z" fill="#d97706"/>
+  <path d="M142 294 Q142 310 200 314 Q258 310 258 294 Q258 280 200 276 Q142 280 142 294 Z" fill="#f59e0b"/>
+  <rect x="155" y="290" width="90" height="8" rx="4" fill="#fbbf24" opacity="0.5"/>
+
+  <!-- Main trunk/stem -->
+  <path d="M197 278 Q196 240 197 210 Q199 200 203 210 Q204 240 203 278 Z" fill="#4a7c3f"/>
+
+  <!-- Large leaf 1 - upper left, classic fiddle shape -->
+  <path d="M200 235 Q165 210 140 175 Q128 155 145 140 Q162 130 175 148 Q188 165 200 235 Z" fill="#2d5a27"/>
+  <path d="M200 235 Q168 212 148 180 Q142 165 152 155 L165 150 Q178 168 200 235 Z" fill="#3d7a35" opacity="0.6"/>
+  <!-- Leaf vein -->
+  <path d="M200 228 Q172 208 155 175" stroke="#4a9e40" stroke-width="1.5" fill="none" opacity="0.7"/>
+
+  <!-- Large leaf 2 - upper right -->
+  <path d="M200 248 Q238 220 262 182 Q272 160 255 145 Q238 134 226 152 Q214 170 200 248 Z" fill="#1e4620"/>
+  <path d="M200 245 Q235 218 256 184 Q264 166 254 155 L240 148 Q228 168 200 245 Z" fill="#2d6a2a" opacity="0.6"/>
+  <path d="M200 240 Q232 215 250 182" stroke="#3d8a38" stroke-width="1.5" fill="none" opacity="0.7"/>
+
+  <!-- Large leaf 3 - mid left -->
+  <path d="M199 262 Q155 250 122 222 Q108 205 120 188 Q135 176 152 190 Q170 205 199 262 Z" fill="#2d5a27"/>
+  <path d="M199 255 Q158 244 128 218 Q118 205 126 194 L142 186 Q160 202 199 255 Z" fill="#3d7a35" opacity="0.5"/>
+
+  <!-- Large leaf 4 - mid right -->
+  <path d="M201 268 Q248 254 278 225 Q292 208 280 192 Q265 180 248 194 Q230 210 201 268 Z" fill="#1e4620"/>
+
+  <!-- Leaf 5 - bottom left -->
+  <path d="M200 278 Q165 272 135 255 Q120 242 128 228 Q140 218 158 228 Q176 240 200 278 Z" fill="#2d5a27"/>
+
+  <!-- Label -->
+  <text x="200" y="390" font-family="Georgia, serif" font-size="13" fill="#78350f" text-anchor="middle" font-weight="bold">Fiddle Leaf Fig</text>
+</svg>

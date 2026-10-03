@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#e0f5f0" rx="16"/>
+  
+  <!-- Pot -->
+  <ellipse cx="200" cy="340" rx="55" ry="14" fill="#b0cfc9" opacity="0.5"/>
+  <path d="M155 310 Q160 360 200 368 Q240 360 245 310 Z" fill="#7ecec4"/>
+  <path d="M148 300 Q148 312 200 316 Q252 312 252 300 Q252 290 200 286 Q148 290 148 300 Z" fill="#95d5cb"/>
+  <rect x="160" y="296" width="80" height="8" rx="4" fill="#7ecec4" opacity="0.4"/>
+  
+  <!-- Aloe leaves -->
+  <!-- Center tall leaf -->
+  <path d="M200 285 Q196 220 190 160 Q196 155 200 158 Q204 155 210 160 Q204 220 200 285 Z" fill="#3a9e88"/>
+  <path d="M200 270 Q199 230 196 190 L200 188 L204 190 Q201 230 200 270 Z" fill="#4dbfa8" opacity="0.5"/>
+  <!-- Spines on center leaf -->
+  <circle cx="192" cy="175" r="2" fill="#2d8070"/>
+  <circle cx="191" cy="195" r="2" fill="#2d8070"/>
+  <circle cx="191" cy="215" r="2" fill="#2d8070"/>
+  <circle cx="191" cy="235" r="2" fill="#2d8070"/>
+  <circle cx="209" cy="175" r="2" fill="#2d8070"/>
+  <circle cx="209" cy="195" r="2" fill="#2d8070"/>
+  <circle cx="209" cy="215" r="2" fill="#2d8070"/>
+  <circle cx="209" cy="235" r="2" fill="#2d8070"/>
+
+  <!-- Left leaf -->
+  <path d="M200 285 Q180 250 155 200 Q148 190 152 182 Q162 180 168 192 Q188 245 200 285 Z" fill="#4aaf96"/>
+  <path d="M198 278 Q178 244 157 198 L162 188 Q182 242 198 278 Z" fill="#5ec9b0" opacity="0.5"/>
+  <circle cx="155" cy="188" r="2.5" fill="#2d8070"/>
+  <circle cx="162" cy="200" r="2.5" fill="#2d8070"/>
+  <circle cx="170" cy="215" r="2.5" fill="#2d8070"/>
+
+  <!-- Right leaf -->
+  <path d="M200 285 Q220 250 245 200 Q252 190 248 182 Q238 180 232 192 Q212 245 200 285 Z" fill="#4aaf96"/>
+  <path d="M202 278 Q222 244 243 198 L238 188 Q218 242 202 278 Z" fill="#5ec9b0" opacity="0.5"/>
+  <circle cx="245" cy="188" r="2.5" fill="#2d8070"/>
+  <circle cx="238" cy="200" r="2.5" fill="#2d8070"/>
+  <circle cx="230" cy="215" r="2.5" fill="#2d8070"/>
+
+  <!-- Far left leaf -->
+  <path d="M195 288 Q168 268 140 235 Q130 220 136 210 Q148 208 156 222 Q180 260 195 288 Z" fill="#3a9e88"/>
+  <circle cx="138" cy="216" r="2.5" fill="#2d8070"/>
+  <circle cx="148" cy="228" r="2.5" fill="#2d8070"/>
+
+  <!-- Far right leaf -->
+  <path d="M205 288 Q232 268 260 235 Q270 220 264 210 Q252 208 244 222 Q220 260 205 288 Z" fill="#3a9e88"/>
+  <circle cx="262" cy="216" r="2.5" fill="#2d8070"/>
+  <circle cx="252" cy="228" r="2.5" fill="#2d8070"/>
+
+  <!-- Label -->
+  <text x="200" y="390" font-family="Georgia, serif" font-size="14" fill="#0e7c6a" text-anchor="middle" font-weight="bold">Aloe Vera</text>
+</svg>
