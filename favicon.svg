@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="32" fill="#0f2e24"/>
+
+  <!-- Tree trunk -->
+  <rect x="29" y="42" width="6" height="12" rx="2" fill="#4a7c59"/>
+
+  <!-- Tree canopy layers (bottom to top, getting smaller) -->
+  <!-- Bottom layer -->
+  <polygon points="32,14 14,46 50,46" fill="#2d6a4f"/>
+  <!-- Middle layer -->
+  <polygon points="32,10 17,38 47,38" fill="#40916c"/>
+  <!-- Top layer -->
+  <polygon points="32,6 20,30 44,30" fill="#52b788"/>
+
+  <!-- Highlight shine on top -->
+  <polygon points="32,6 24,24 32,22" fill="#74c69d" opacity="0.5"/>
+
+  <!-- Small leaf accent left -->
+  <ellipse cx="18" cy="34" rx="5" ry="3" fill="#95d5b2" opacity="0.6" transform="rotate(-30 18 34)"/>
+  <!-- Small leaf accent right -->
+  <ellipse cx="46" cy="34" rx="5" ry="3" fill="#95d5b2" opacity="0.6" transform="rotate(30 46 34)"/>
+</svg>
