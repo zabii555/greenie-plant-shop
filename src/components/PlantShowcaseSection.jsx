@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ArrowUpRight, Heart, ShoppingBag, Check, Sparkles, Filter } from 'lucide-react';
+import { assetUrl } from '../utils/asset';
 
 export const PlantShowcaseSection = ({ 
   onOpenCareModal, 
@@ -29,7 +30,7 @@ export const PlantShowcaseSection = ({
       size: 'Partial',
       price: '$28.00',
       priceNum: 28,
-      image: '/images/asplenium.jpg',
+      image: assetUrl('/images/asplenium.jpg'),
       bg: 'bg-[#d6ead6]',
       imgBg: 'bg-[#b8dab8]',
       accent: '#2d6a4f',
@@ -45,7 +46,7 @@ export const PlantShowcaseSection = ({
       size: 'Semi',
       price: '$18.00',
       priceNum: 18,
-      image: '/images/succulent.jpg',
+      image: assetUrl('/images/succulent.jpg'),
       bg: 'bg-[#2c1810]',
       imgBg: 'bg-[#c1440e]/20',
       accent: '#ff7b3a',
@@ -61,7 +62,7 @@ export const PlantShowcaseSection = ({
       size: 'Small',
       price: '$34.00',
       priceNum: 34,
-      image: '/images/monstera.jpg',
+      image: assetUrl('/images/monstera.jpg'),
       bg: 'bg-[#0a3629]',
       imgBg: 'bg-[#c1f038]/15',
       accent: '#c1f038',
@@ -77,7 +78,7 @@ export const PlantShowcaseSection = ({
       size: 'Medium',
       price: '$22.00',
       priceNum: 22,
-      image: '/images/aloe.jpg',
+      image: assetUrl('/images/aloe.jpg'),
       bg: 'bg-[#e0f5f0]',
       imgBg: 'bg-[#a8dacc]',
       accent: '#0e7c6a',
@@ -93,7 +94,7 @@ export const PlantShowcaseSection = ({
       size: 'Large',
       price: '$45.00',
       priceNum: 45,
-      image: '/images/fiddle_leaf.jpg',
+      image: assetUrl('/images/fiddle_leaf.jpg'),
       bg: 'bg-[#fdf3c0]',
       imgBg: 'bg-[#f9e269]/40',
       accent: '#b45309',
@@ -109,7 +110,7 @@ export const PlantShowcaseSection = ({
       size: 'Small',
       price: '$16.00',
       priceNum: 16,
-      image: '/images/jade.jpg',
+      image: assetUrl('/images/jade.jpg'),
       bg: 'bg-[#ede9f8]',
       imgBg: 'bg-[#c4b5fd]/30',
       accent: '#7c3aed',
@@ -271,7 +272,7 @@ export const PlantShowcaseSection = ({
           <div className="lg:col-span-5 flex justify-center relative my-8 lg:my-0">
             <div className="relative w-72 h-72 sm:w-80 sm:h-80 bg-[#fde047] rounded-full flex items-center justify-center shadow-inner animate-pulse-glow">
               <img
-                src="/images/monstera.jpg"
+                src={assetUrl('/images/monstera.jpg')}
                 alt="Monstera in coral pot"
                 className="w-64 sm:w-72 h-64 sm:h-72 object-contain filter drop-shadow-2xl z-10 hover:scale-105 transition duration-500"
               />

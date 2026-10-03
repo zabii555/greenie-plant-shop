@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowUpRight, Flower, Sparkles, Heart } from 'lucide-react';
+import { assetUrl } from '../utils/asset';
 
 export const PlantCaringSection = ({ onOpenCareModal }) => {
   return (
@@ -51,7 +52,7 @@ export const PlantCaringSection = ({ onOpenCareModal }) => {
             
             <div className="my-auto flex justify-center py-4">
               <img
-                src="/images/monstera.jpg"
+                src={assetUrl('/images/monstera.jpg')}
                 alt="Monstera Deliciosa Houseplant"
                 className="w-44 h-44 object-contain filter drop-shadow-xl hover:scale-105 transition"
               />
@@ -86,7 +87,7 @@ export const PlantCaringSection = ({ onOpenCareModal }) => {
           {/* Card 3: Right Gardener Photo (Image 2 Clara Dupont) */}
           <div className="md:col-span-4 rounded-3xl overflow-hidden shadow-xl border border-stone-200 card-3d relative min-h-[20rem]">
             <img
-              src="/images/gardener_apron.jpg"
+              src={assetUrl('/images/gardener_apron.jpg')}
               alt="Clara Dupont - Botanist"
               className="w-full h-full object-cover object-top hover:scale-105 transition duration-700"
             />

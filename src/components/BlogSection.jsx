@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Sparkles, ArrowUpRight, BookOpen, Clock, User, X } from 'lucide-react';
+import { assetUrl } from '../utils/asset';
 
 export const BlogSection = () => {
   const [activeArticle, setActiveArticle] = useState(null);
@@ -12,7 +13,7 @@ export const BlogSection = () => {
       readTime: '4 min read',
       author: 'Clara Dupont',
       date: 'Oct 2026',
-      image: '/images/hero_woman.jpg',
+      image: assetUrl('/images/hero_woman.jpg'),
       snippet: 'Discover how soil microbes and green leaf aesthetics increase serotonin levels and reduce stress in office & home environments.',
       content: `Research in environmental psychology confirms that indoor houseplants like Monstera, Asplenium, and Succulents significantly reduce cortisol levels. 
 
@@ -25,7 +26,7 @@ The soil bacterium Mycobacterium vaccae stimulates serotonin production, creatin
       readTime: '6 min read',
       author: 'Sophia Vance',
       date: 'Oct 2026',
-      image: '/images/gardener_apron.jpg',
+      image: assetUrl('/images/gardener_apron.jpg'),
       snippet: 'Avoid overwatering rot! Learn the two-inch soil test method and proper misting frequency during growing seasons.',
       content: `Monstera Deliciosa plants thrive when allowed to dry slightly between deep waterings. Always feel the top 2 inches of soil with your fingertip. 
 
@@ -38,7 +39,7 @@ If moist, wait 2 days. Ensure your pot has drainage holes and place a saucer und
       readTime: '5 min read',
       author: 'Hannah Miller',
       date: 'Sep 2026',
-      image: '/images/gardener_pot.jpg',
+      image: assetUrl('/images/gardener_pot.jpg'),
       snippet: 'Protect your greenery naturally without chemical pesticides. Organic spray recipes approved by Greenie botanists.',
       content: `Chemical pesticides can damage delicate plant foliage and home air quality. Mix 1 teaspoon of organic cold-pressed neem oil with 1/2 teaspoon of mild liquid soap in 1 liter of warm water. 
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Play, Droplets, ArrowUpRight, Sparkles } from 'lucide-react';
+import { assetUrl } from '../utils/asset';
 
 export const HeroSection = ({ onOpenCareModal, onOpenReelsModal, onOpenPlantDetail }) => {
   const handleSunflowerClick = () => {
@@ -9,7 +10,7 @@ export const HeroSection = ({ onOpenCareModal, onOpenReelsModal, onOpenPlantDeta
         name: 'Golden Sunflower 3D',
         size: 'Medium / Outdoor',
         price: '$24.00',
-        image: '/images/monstera.jpg',
+        image: assetUrl('/images/monstera.jpg'),
         tag: 'Indoor & Outdoor ☀️',
         description: 'Vibrant golden sunflower plant that brings natural warmth, happiness, and serotonin into home living spaces.'
       });
@@ -29,7 +30,7 @@ export const HeroSection = ({ onOpenCareModal, onOpenReelsModal, onOpenPlantDeta
           <div className="lg:col-span-5 relative group">
             <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-[#144d3b] card-3d">
               <img
-                src="/images/hero_woman.jpg"
+                src={assetUrl('/images/hero_woman.jpg')}
                 alt="Sophia Vance - Plant Specialist watering trees"
                 className="w-full h-96 sm:h-[31.25rem] object-cover object-center group-hover:scale-105 transition-transform duration-700"
               />
